@@ -1,0 +1,7 @@
+package model;
+
+/** Setiap entity wajib punya satu kunci utama bertipe int. */
+public interface Identifiable {
+    int getId();
+    void setId(int id);
+}
